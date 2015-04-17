@@ -7,116 +7,137 @@
 ModuleTileMap::ModuleTileMap(Application* app, bool start_Enabled) : Module(app, start_Enabled), tiles(22)
 {
 
-	
+	tiles.PushBack(tile1);
 	tiles[0].x = 255;
 	tiles[0].y = 15;
 	tiles[0].h = 16;
 	tiles[0].w = 16;
 
-
+	tiles.PushBack(tile2);
 	tiles[1].x = 271;
 	tiles[1].y = 15;
 	tiles[1].h = 16;
 	tiles[1].w = 16;
 
+	tiles.PushBack(tile3);
 	tiles[2].x = 288;
 	tiles[2].y = 15;
 	tiles[2].h = 16;
 	tiles[2].w = 16;
 
+	tiles.PushBack(tile4);
 	tiles[3].x = 305;
 	tiles[3].y = 15;
 	tiles[3].h = 16;
 	tiles[3].w = 16;
 
+	tiles.PushBack(tile5);
 	tiles[4].x = 322;
 	tiles[4].y = 15;
 	tiles[4].h = 16;
 	tiles[4].w = 16;
 
+	tiles.PushBack(tile6);
 	tiles[5].x = 339;
 	tiles[5].y = 15;
 	tiles[5].h = 16;
 	tiles[5].w = 16;
 
+	tiles.PushBack(tile7);
 	tiles[6].x = 356;
 	tiles[6].y = 15;
 	tiles[6].h = 16;
 	tiles[6].w = 16;
 
+	tiles.PushBack(tile8);
 	tiles[7].x = 373;
 	tiles[7].y = 15;
 	tiles[7].h = 16;
 	tiles[7].w = 16;
 	//--------------- SECOND ROW
+
+	tiles.PushBack(tile9);
 	tiles[8].x = 255;
 	tiles[8].y = 32;
 	tiles[8].h = 16;
 	tiles[8].w = 16;
 
+	tiles.PushBack(tile10);
 	tiles[9].x = 271;
 	tiles[9].y = 32;
 	tiles[9].h = 16;
 	tiles[9].w = 16;
 
+	tiles.PushBack(tile11);
 	tiles[10].x = 288;
 	tiles[10].y = 32;
 	tiles[10].h = 16;
 	tiles[10].w = 16;
 
+	tiles.PushBack(tile12);
 	tiles[11].x = 305;
 	tiles[11].y = 32;
 	tiles[11].h = 16;
 	tiles[11].w = 16;
 
+	tiles.PushBack(tile13);
 	tiles[12].x = 322;
 	tiles[12].y = 32;
 	tiles[12].h = 16;
 	tiles[12].w = 16;
 
+	tiles.PushBack(tile14);
 	tiles[13].x = 339;
 	tiles[13].y = 32;
 	tiles[13].h = 16;
 	tiles[13].w = 16;
 
 
+	tiles.PushBack(tile15);
 	tiles[14].x = 356;
 	tiles[14].y = 32;
 	tiles[14].h = 16;
 	tiles[14].w = 16;
 
+	tiles.PushBack(tile16);
 	tiles[15].x = 355;
 	tiles[15].y = 32;
 	tiles[15].h = 16;
 	tiles[15].w = 16;
 	//--------------- THIRD ROW
 
+	tiles.PushBack(tile17);
 	tiles[16].x = 255;
 	tiles[16].y = 49;
 	tiles[16].h = 16;
 	tiles[16].w = 16;
 
+	tiles.PushBack(tile18);
 	tiles[17].x = 271;
 	tiles[17].y = 49;
 	tiles[17].h = 16;
 	tiles[17].w = 16;
 
+	tiles.PushBack(tile19);
 	tiles[18].x = 288;
 	tiles[18].y = 49;
 	tiles[18].h = 16;
 	tiles[18].w = 16;
 
+	tiles.PushBack(tile20);
 	tiles[19].x = 305;
 	tiles[19].y = 49;
 	tiles[19].h = 16;
 	tiles[19].w = 16;
 
 
+	tiles.PushBack(tile21);
 	tiles[20].x = 322;
 	tiles[20].y = 49;
 	tiles[20].h = 16;
 	tiles[20].w = 16;
 
+	tiles.PushBack(tile22);
 	tiles[21].x = 339;
 	tiles[21].y = 49;
 	tiles[21].h = 16;
@@ -127,7 +148,7 @@ ModuleTileMap::ModuleTileMap(Application* app, bool start_Enabled) : Module(app,
 bool ModuleTileMap::Start()
 {
 	
-	tilesReference = App->textures->Load("C:\\Users\\Ruben\\Documents\\Visual Studio 2013\\Projects\\SDL_Game_v5\\SDL Game\\Game\\BombermanTiles.png");
+	tilesReference = App->textures->Load("D:\\Users\\aleixcz\\Documents\\GitHub\\SuperBombermanTribute\\Debug\\GameBombermanTiles.png");
 	
 	return 1;
 }
@@ -135,7 +156,7 @@ bool ModuleTileMap::Start()
 bool ModuleTileMap::Init()
 {
 	LOG("TILE INITIATION");
-	LoadMap("C:\\Users\\Ruben\\Documents\\Visual Studio 2013\\Projects\\SDL_Game_v5\\SDL Game\\firstLevel.txt");
+	LoadMap("D:\\Users\\aleixcz\\Documents\\GitHub\\SuperBombermanTribute\\SDLGame\\firstLevel.txt");
 	PrintMap();
 	return true;
 }
