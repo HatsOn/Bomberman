@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{CC5E85BA-5378-4CC1-9220-33DD4AB1EC2E}</ProjectGuid>
+    <ProjectGuid>{D537D40C-56B4-40D6-90A8-E1AF324AA977}</ProjectGuid>
     <RootNamespace>SDLGame</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -44,6 +44,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -79,6 +80,7 @@
     <ClInclude Include="ModuleSceneIntro.h" />
     <ClInclude Include="ModuleSceneSpace.h" />
     <ClInclude Include="ModuleTextures.h" />
+    <ClInclude Include="ModuletileMap.h" />
     <ClInclude Include="ModuleWindow.h" />
     <ClInclude Include="p2DynArray.h" />
     <ClInclude Include="p2List.h" />
@@ -98,6 +100,7 @@
     <ClCompile Include="ModuleSceneIntro.cpp" />
     <ClCompile Include="ModuleSceneSpace.cpp" />
     <ClCompile Include="ModuleTextures.cpp" />
+    <ClCompile Include="ModuletileMap.cpp" />
     <ClCompile Include="ModuleWindow.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D537D40C-56B4-40D6-90A8-E1AF324AA977}</ProjectGuid>
+    <ProjectGuid>{85730530-9566-4FFC-AC18-3B70D3E8BBC9}</ProjectGuid>
     <RootNamespace>SuperBombermanTribute</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

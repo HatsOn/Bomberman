@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SuperBombermanTribute", "SuperBombermanTribute\SuperBombermanTribute.vcxproj", "{D537D40C-56B4-40D6-90A8-E1AF324AA977}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDLGame", "SDLGame\SDLGame.vcxproj", "{D537D40C-56B4-40D6-90A8-E1AF324AA977}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CustomLibraries", "CustomLibraries\CustomLibraries.vcxproj", "{C6F93CF0-915E-412D-A355-B6DA1AAB3754}"
 EndProject
@@ -11,7 +11,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTestCustomLibraries", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTestSuperBombermanTribute", "UnitTestSuperBombermanTribute\UnitTestSuperBombermanTribute.vcxproj", "{ACCE571C-6435-4E71-84E5-284726E4E62E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDLGame", "SDLGame\SDLGame.vcxproj", "{CC5E85BA-5378-4CC1-9220-33DD4AB1EC2E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SuperBombermanTribute", "SuperBombermanTribute\SuperBombermanTribute.vcxproj", "{85730530-9566-4FFC-AC18-3B70D3E8BBC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{ACCE571C-6435-4E71-84E5-284726E4E62E}.Debug|Win32.Build.0 = Debug|Win32
 		{ACCE571C-6435-4E71-84E5-284726E4E62E}.Release|Win32.ActiveCfg = Release|Win32
 		{ACCE571C-6435-4E71-84E5-284726E4E62E}.Release|Win32.Build.0 = Release|Win32
-		{CC5E85BA-5378-4CC1-9220-33DD4AB1EC2E}.Debug|Win32.ActiveCfg = Debug|Win32
-		{CC5E85BA-5378-4CC1-9220-33DD4AB1EC2E}.Debug|Win32.Build.0 = Debug|Win32
-		{CC5E85BA-5378-4CC1-9220-33DD4AB1EC2E}.Release|Win32.ActiveCfg = Release|Win32
-		{CC5E85BA-5378-4CC1-9220-33DD4AB1EC2E}.Release|Win32.Build.0 = Release|Win32
+		{85730530-9566-4FFC-AC18-3B70D3E8BBC9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{85730530-9566-4FFC-AC18-3B70D3E8BBC9}.Debug|Win32.Build.0 = Debug|Win32
+		{85730530-9566-4FFC-AC18-3B70D3E8BBC9}.Release|Win32.ActiveCfg = Release|Win32
+		{85730530-9566-4FFC-AC18-3B70D3E8BBC9}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
