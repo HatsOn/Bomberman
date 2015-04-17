@@ -10,10 +10,11 @@ Application::Application()
 	audio = new ModuleAudio(this, false);
 	scene_space = new ModuleSceneSpace(this, false);
 	player = new ModulePlayer(this, false);
-	scene_intro = new ModuleSceneIntro(this, true);
+	scene_intro = new ModuleSceneIntro(this, false);
 	fade = new ModuleFadeToBlack(this);
 	particles = new ModuleParticles(this);
 	collision = new ModuleCollision(this, false);
+	tilemap = new ModuleTileMap(this, true);
 
 	// The order of calls is very important!
 	// Modules will Init() Start() and Update in this order
@@ -30,7 +31,7 @@ Application::Application()
 	// Scenes
 	AddModule(scene_space);
 	AddModule(scene_intro);
-	
+	AddModule(tilemap);
 	// Characters
 	AddModule(player);
 
@@ -45,6 +46,7 @@ Application::~Application()
 	delete renderer;
 	delete window;
 	delete textures;
+	delete tilemap;
 	delete input;
 	delete particles;
 	delete audio;

@@ -25,3 +25,16 @@ enum update_status
 #define WIN_FULLSCREEN_DESKTOP false
 #define VSYNC true
 #define TITLE "Super Awesome Game"
+#define MAX_MAP_X 36
+#define MAX_MAP_Y 28
+#define TILE_SIZE 16
+
+
+
+
+
+
+typedef struct Map
+{
+	int tile[MAX_MAP_Y][MAX_MAP_X];
+} Map;
