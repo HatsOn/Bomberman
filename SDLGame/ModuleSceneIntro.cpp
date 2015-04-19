@@ -19,9 +19,9 @@ bool ModuleSceneIntro::Start()
 	LOG("Loading Intro assets");
 	bool ret = true;
 
-	graphics = App->textures->Load("rtype/intro.png");
-	App->audio->PlayMusic("rtype/intro.ogg", 0.0f);
-	fx = App->audio->LoadFx("rtype/starting.wav");
+	graphics = App->textures->Load("Game/rtype/intro.png");
+	App->audio->PlayMusic("Game/rtype/intro.ogg", 0.0f);
+	fx = App->audio->LoadFx("Game/rtype/starting.wav");
 	App->renderer->camera.x = App->renderer->camera.y = 0;
 
 	return ret;
